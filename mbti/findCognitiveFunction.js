@@ -1,3 +1,24 @@
+const flippedLetterMapping = {
+  I: 'E',
+  E: 'I',
+  S: 'N',
+  N: 'S',
+  T: 'F',
+  F: 'T',
+  J: 'P',
+  P: 'J'
+}
+
+const flippedMarkMapping = {
+  e: 'i',
+  i: 'e'
+}
+
+function flipFunction(fn) {
+  const [letter, mark] = [...fn]
+  return flippedLetterMapping[letter] + flippedMarkMapping[mark]
+}
+
 /**
  * @param {string} mbti
  * @return {{
