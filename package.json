@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test:mbti": "yarn jest --watch --rootDir mbti",
-    "test:isPrime": "yarn jest --watch --rootDir isPrime",
-    "test:shuffle": "yarn jest --watch --rootDir shuffle"
+    "test:mbti": "yarn jest --watch mbti/mbti.spec.js",
+    "test:isPrime": "yarn jest --watch isPrime/isPrime.spec.js",
+    "test:shuffle": "yarn jest --watch shuffle/shuffle.spec.js"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
