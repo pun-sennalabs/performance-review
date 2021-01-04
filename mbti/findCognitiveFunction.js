@@ -37,5 +37,7 @@ export function findCognitiveFunction(mbti) {
   const dominant = dominantMark === 'E' ? extroverted : introverted
   const auxiliary = dominantMark === 'E' ? introverted : extroverted
 
+  const tertiary = flipFunction(auxiliary)
+
   throw new Error('Not implemented')
 }
