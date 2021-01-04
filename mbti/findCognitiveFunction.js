@@ -13,5 +13,7 @@ export function findCognitiveFunction(mbti) {
   const extroverted = `${attitude === 'P' ? fn1 : fn2}e`
   const introverted = `${attitude === 'P' ? fn2 : fn1}i`
 
+  const dominant = dominantMark === 'E' ? extroverted : introverted
+
   throw new Error('Not implemented')
 }
