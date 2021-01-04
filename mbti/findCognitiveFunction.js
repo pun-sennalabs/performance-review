@@ -8,5 +8,7 @@
  * }}
  */
 export function findCognitiveFunction(mbti) {
-  throw new Error("Not implemented");
+  const [dominantMark, fn1, fn2, attitude] = [...mbti.toUpperCase()]
+
+  throw new Error('Not implemented')
 }
