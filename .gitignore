@@ -1,0 +1,9 @@
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
+node_modules
+db.json
+
+.idea
+.vscode
