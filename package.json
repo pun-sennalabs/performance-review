@@ -1,0 +1,20 @@
+{
+  "name": "mbti",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:mbti": "yarn jest --watch --rootDir mbti",
+    "test:isPrime": "yarn jest --watch --rootDir isPrime",
+    "test:shuffle": "yarn jest --watch --rootDir shuffle"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@types/jest": "^26.0.19",
+    "@types/node": "^14.14.16",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  }
+}
