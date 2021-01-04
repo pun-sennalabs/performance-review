@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test:mbti": "yarn jest --watch --rootDir mbti",
-    "test:income": "yarn jest --watch --rootDir income-gap"
+    "test:isPrime": "yarn jest --watch --rootDir isPrime",
+    "test:shuffle": "yarn jest --watch --rootDir shuffle"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
