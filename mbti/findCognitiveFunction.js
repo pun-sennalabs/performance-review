@@ -40,5 +40,5 @@ export function findCognitiveFunction(mbti) {
   const tertiary = flipFunction(auxiliary)
   const inferior = flipFunction(dominant)
 
-  throw new Error('Not implemented')
+  return { dominant, auxiliary, tertiary, inferior }
 }
